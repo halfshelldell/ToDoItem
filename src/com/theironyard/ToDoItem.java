@@ -10,5 +10,6 @@ public class ToDoItem {
     public ToDoItem(String text, boolean isDone) {
         this.text = text;
         this.isDone = isDone;
+        //
     }
 }
