@@ -35,7 +35,7 @@ public class Main {
             if (toDoItem.isDone) {
                 checkBox = "[x]";
             }
-            System.out.println(checkBox + " " + i + " . " + toDoItem.text);
+            System.out.println(checkBox + " " + i + ". " + toDoItem.text);
             i++;
             // or i += 1;
         }
