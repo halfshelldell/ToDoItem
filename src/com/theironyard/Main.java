@@ -35,7 +35,8 @@ public class Main {
             if (toDoItem.isDone) {
                 checkBox = "[x]";
             }
-            System.out.println(checkBox + " " + i + ". " + toDoItem.text);
+            //System.out.println(checkBox + " " + i + ". " + toDoItem.text);
+            System.out.printf("%s %s. %s\n", checkBox, i, toDoItem.text);
             i++;
             // or i += 1;
         }
@@ -69,7 +70,7 @@ public class Main {
                 default:
                     System.out.println("Invalid option");
             }
-                // push
+
         }
     }
 }

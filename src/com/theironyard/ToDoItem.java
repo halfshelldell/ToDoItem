@@ -13,3 +13,13 @@ public class ToDoItem {
         //
     }
 }
+
+
+/* // String Formatting
+String name = "Alice";
+//String greeting = "Hello " + name + ", How are you?";
+String greeting = String.format("Hello, %s. How are you? Money \$%.2f\n", name, 30.3233);
+System.out.printf(greeting);
+System.out.printf("Hello, %s. How are you?\n", name);
+System.out.printf("Hello, %s. How are you?", name);
+// variadic methods */
